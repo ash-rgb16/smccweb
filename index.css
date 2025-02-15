@@ -1,0 +1,182 @@
+body{
+    margin: 10px;
+    font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+}
+.logo{
+    float: left;
+    font-size: 1.5rem;
+    text-align: center;
+    color:black (241, 241, 201);
+}
+
+header ul{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 20px 20px;
+    margin: 0;
+    background-color: rgba(8, 8, 112, 0.967);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+header ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+header ul a{
+    color: white;
+}
+.about{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+
+    }
+
+
+footer ul{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 20px 20px;
+    margin: 0;
+    background-color: rgb(30, 30, 255);
+}
+footer ul a{
+    color: white;
+}
+footer ul p{
+    color: white;
+}
+.cour{
+    max-width: 200;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 10px;
+}
+.cour:hover {
+    transform: scale(1.05);
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo img {
+    max-width: 100%;
+    vertical-align: middle;
+    
+}
+
+
+.about img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.nav-menu {
+    text-align: right;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .navbar
+}
+main {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+}
+footer {
+    background-color: #343940;
+    color: white;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #f8f9fa;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.name {
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.about:hover {
+    transform: scale(1.05);
+}
+main {
+    background-image: url(smccnasipit_cover.jpg);
+}
+.name {
+    background-color: yellow;
+}
+.row {
+    background-color: yellow;
+    max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(60, 7, 125, 0.1);
+        transition: transform 0.3s ease-in-out;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+@media (max-width: 767px) {
+}
+.nav-link:hover {
+    color: #ccc;
+}
